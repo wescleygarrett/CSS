@@ -1,0 +1,38 @@
+.container{
+    max-width: 600px;
+    border: 3px solid blueviolet;
+    background-color:aqua;
+    margin: 0;
+    display: flex;
+}
+
+.item{
+    background-color: blueviolet;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-around{
+    justify-content:space-around;
+}
+
+
+.space-between{
+    justify-content:space-between;
+}
+
